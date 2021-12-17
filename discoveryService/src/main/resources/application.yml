@@ -1,0 +1,15 @@
+server:
+  port: 8716
+
+spring:
+  application:
+    name: discoverService
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      name: ecommerce
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
